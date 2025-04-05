@@ -1,81 +1,81 @@
-﻿using System;
+﻿// *********      1. C# Language Basics      ******
+
+using System;
 
 class Program
 {
+
+    static bool IsPalindromeRecursive(int num, int rev, int temp)
+    {
+        if (temp == 0)
+            return num == rev;
+
+        return IsPalindromeRecursive(num, rev * 10 + temp % 10, temp / 10);
+    }
+
+    static bool IsPalindrome(int num)
+    {
+        int original = num, reverse = 0;
+        while (num > 0)
+        {
+            reverse = reverse * 10 + num % 10;
+            num /= 10;
+        }
+        return original == reverse;
+    }
+
     static void Main()
     {
-        // a1q2
-        Console.WriteLine("For Loop ");
-        for (int i = 1; i <= 5; i++)
+        Console.WriteLine("1\n A");
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+
+        if (string.IsNullOrEmpty(input) || input.Length < 2)
         {
-            Console.WriteLine("iteration  " + i);
-        }
-
-        Console.WriteLine("\nWhile Loop");
-        int count = 0;
-        while (count < 5)
-        {
-            Console.WriteLine("Count is " + count);
-            count++;
-        }
-
-        Console.WriteLine("\nDo-While Loop");
-        int num = 0;
-        do
-        {
-            Console.WriteLine("Number is " + num);
-            num++;
-        } while (num < 3);
-
-
-
-        // a1 qus 1 
-
-        Console.Write("Enter a number: ");
-        int number = Convert.ToInt32(Console.ReadLine());
-
-        if (number > 0)
-        {
-            Console.WriteLine("The number is positive.");
-        }
-        else if (number < 0)
-        {
-            Console.WriteLine("The number is negative.");
+            Console.WriteLine("String must have at least two characters.");
         }
         else
         {
-            Console.WriteLine("The number is zero.");
+            char first = input[0];
+            char last = input[input.Length - 1];
+            string shuffled = last + input.Substring(1, input.Length - 2) + first;
+
+            Console.WriteLine("Shuffled String: " + shuffled);
         }
+//********************
+        Console.WriteLine("B");
+        //2 
+        Console.Write("Enter an integer: ");
+        int number = int.Parse(Console.ReadLine());
 
-        Console.Write("Enter a day number (1-7): ");
-        int day = Convert.ToInt32(Console.ReadLine());
-
-        switch (day)
+        int sum = 0;
+        while (number != 0)
         {
-            case 1:
-                Console.WriteLine("Monday");
-                break;
-            case 2:
-                Console.WriteLine("Tuesday");
-                break;
-            case 3:
-                Console.WriteLine("Wednesday");
-                break;
-            case 4:
-                Console.WriteLine("Thursday");
-                break;
-            case 5:
-                Console.WriteLine("Friday");
-                break;
-            case 6:
-                Console.WriteLine("Saturday");
-                break;
-            case 7:
-                Console.WriteLine("Sunday");
-                break;
-            default:
-                Console.WriteLine("Invalid day number.");
-                break;
+            sum += number % 10;
+            number /= 10;
         }
+
+        Console.WriteLine("Sum of all digits: " + sum);
+
+        Console.WriteLine("2 \n A Using Recursion");
+
+//********************
+        Console.Write("Enter a number: ");
+        int n = int.Parse(Console.ReadLine());
+
+        bool isPalindrome = IsPalindromeRecursive(n, 0, n);
+
+        Console.WriteLine(isPalindrome ? "The number is a Palindrome." : "The number is NOT a Palindrome.");
+
+
+ //********************
+        Console.WriteLine(" Without Using Recursion ");
+
+        Console.Write("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+
+        Console.WriteLine(IsPalindrome(num) ? "The number is a Palindrome." : "The number is NOT a Palindrome.");
+
+
     }
 }

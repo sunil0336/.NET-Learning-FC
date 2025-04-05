@@ -2,6 +2,11 @@
 Thumbs.db
 ehthumbs.db
 
+# User-specific files
+.vs/
+.vscode/
+# .github folder (if you don’t want to track it)
+.github/
 # Windows Installer files
 *.cab
 *.msi

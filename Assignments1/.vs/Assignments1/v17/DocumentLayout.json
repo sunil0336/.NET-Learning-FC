@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "Assignments1\\Program.cs",
               "ToolTip": "D:\\College\\SEM2\\DotNet\\Assignments1\\Assignments1\\Program.cs",
               "RelativeToolTip": "Assignments1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T18:23:08.135Z",
               "EditorCaption": ""

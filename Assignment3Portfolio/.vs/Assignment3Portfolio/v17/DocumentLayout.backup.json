@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|d:\\college\\sem2\\dotnet\\assignment3portfolio\\assignment3portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|solutionrelative:assignment3portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|d:\\college\\sem2\\dotnet\\assignment3portfolio\\assignment3portfolio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|solutionrelative:assignment3portfolio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|d:\\college\\sem2\\dotnet\\assignment3portfolio\\assignment3portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|solutionrelative:assignment3portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|d:\\college\\sem2\\dotnet\\assignment3portfolio\\assignment3portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|solutionrelative:assignment3portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70B7BC5B-DB9C-4F0A-B896-CC57D34B02CC}|Assignment3Portfolio\\Assignment3Portfolio.csproj|d:\\college\\sem2\\dotnet\\assignment3portfolio\\assignment3portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T18:07:16.103Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Assignment3Portfolio\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Assignment3Portfolio\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T18:13:47.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Assignment3Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T18:07:16.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Program.cs",
               "RelativeDocumentMoniker": "Assignment3Portfolio\\Program.cs",
@@ -59,12 +74,11 @@
               "RelativeToolTip": "Assignment3Portfolio\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T18:07:13.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T18:07:13.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TechSkills.cshtml",
               "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Home\\TechSkills.cshtml",
               "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Home\\TechSkills.cshtml",
@@ -72,12 +86,11 @@
               "RelativeToolTip": "Assignment3Portfolio\\Views\\Home\\TechSkills.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T18:07:03.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T18:07:03.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Home\\Index.cshtml",
@@ -85,12 +98,11 @@
               "RelativeToolTip": "Assignment3Portfolio\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T18:04:17.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T18:04:17.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Download.cshtml",
               "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Home\\Download.cshtml",
               "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Home\\Download.cshtml",
@@ -98,12 +110,11 @@
               "RelativeToolTip": "Assignment3Portfolio\\Views\\Home\\Download.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T18:06:02.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T18:06:02.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\College\\SEM2\\DotNet\\Assignment3Portfolio\\Assignment3Portfolio\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Assignment3Portfolio\\Views\\Home\\About.cshtml",
